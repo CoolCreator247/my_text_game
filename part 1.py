@@ -1,4 +1,3 @@
-print("start")
 while True:
     print("you can:")
     print("1.get food")
@@ -22,6 +21,9 @@ while True:
     if answer == "2":
         print("got water")
         print("yes/no/filter")
-        if answer == "yes"
+        if answer == "yes":
             print("it was posind")
-        if answer ==    
+        if answer == "no":
+            print("you died from thirst")
+        if answer == "filter":
+            print("you lived")    
