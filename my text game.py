@@ -8,6 +8,7 @@ while True:
     answer = "0"
     answer = input()
 
+
     if answer == "1":
         yesNo = ""
         print("you got food eat it yes/no")
