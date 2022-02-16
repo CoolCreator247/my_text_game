@@ -46,9 +46,10 @@ while True:
 
     if answer =="5":
         print(blocks)
-      
+        if blocks == "":
+            print("Sorry! you need more blocks!")
     elif int(blocks) >= 10 :
             print("you need more blocks")
-    elif int(blocks) < 0:
+    elif int(blocks) < 10:
             print("you got a house,the end")
             break
