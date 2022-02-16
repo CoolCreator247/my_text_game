@@ -32,8 +32,8 @@ while True:
             print("you lived") 
 
     if answer == "3":
-        print("you got 5 dollers come back to get more")       
-        money = money + 5
+        print("you got 25 dollers come back to get more")       
+        money = money + 25
 
     if answer == "4":
         print("you have " +str(money) +" dollers")
@@ -46,10 +46,9 @@ while True:
 
     if answer =="5":
         print(blocks)
-        if blocks == "":
-            print("Sorry! you need more blocks!")
-        elif int(blocks) >= 10 :
+      
+    elif int(blocks) >= 10 :
             print("you need more blocks")
-        elif int(blocks) < 10:
+    elif int(blocks) < 0:
             print("you got a house,the end")
             break
