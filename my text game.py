@@ -17,7 +17,7 @@ while True:
         if yesNo == "yes":
             print("you lived")
         elif yesNo == "no":
-            print("You died from hunger Go back and try something elseelseelse")
+            print("You did not survive from hunger Go back and try something else")
 
     
     if answer == "2":
@@ -25,9 +25,9 @@ while True:
         print("yes/no/filter")
         yesNo = input()
         if yesNo == "yes":
-            print("it was poisoned Try something else")
+            print("it was poisoned You did not survive Try something else")
         if yesNo == "no":
-            print("you died from thirst try something else")
+            print("you did not survive from thirst try something else")
         if yesNo == "filter":
             print("you lived") 
 
